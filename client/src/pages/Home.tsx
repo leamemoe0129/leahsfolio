@@ -25,8 +25,13 @@ export default function Home() {
       </nav>
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-blue-50 to-indigo-100 py-20">
-        <div className="container mx-auto px-4 flex flex-col md:flex-row items-center gap-12">
+      <section className="relative bg-gradient-to-br from-blue-50 via-indigo-100 to-purple-100 py-20 overflow-hidden">
+        <div className="absolute inset-0 opacity-10">
+          <div className="absolute top-20 left-10 w-72 h-72 bg-blue-400 rounded-full mix-blend-multiply filter blur-xl animate-blob"></div>
+          <div className="absolute top-40 right-10 w-72 h-72 bg-purple-400 rounded-full mix-blend-multiply filter blur-xl animate-blob animation-delay-2000"></div>
+          <div className="absolute bottom-20 left-1/2 w-72 h-72 bg-pink-400 rounded-full mix-blend-multiply filter blur-xl animate-blob animation-delay-4000"></div>
+        </div>
+        <div className="container mx-auto px-4 flex flex-col md:flex-row items-center gap-12 relative z-10">
           <div className="flex-1">
             <h2 className="text-5xl font-bold text-gray-900 mb-4">Leah Mae Santillan</h2>
             <p className="text-2xl text-blue-600 font-semibold mb-6">Social Media Manager & Graphic Designer</p>
@@ -189,15 +194,18 @@ export default function Home() {
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className="py-16 bg-gradient-to-br from-blue-600 to-indigo-700 text-white">
-        <div className="container mx-auto px-4 text-center">
+      <section id="contact" className="relative py-16 bg-gradient-to-br from-blue-600 via-indigo-700 to-purple-800 text-white overflow-hidden">
+        <div className="absolute inset-0 opacity-10">
+          <div className="absolute top-10 left-20 w-64 h-64 bg-white rounded-full mix-blend-overlay filter blur-2xl"></div>
+          <div className="absolute bottom-10 right-20 w-64 h-64 bg-pink-300 rounded-full mix-blend-overlay filter blur-2xl"></div>
+        </div>
+        <div className="container mx-auto px-4 text-center relative z-10">
           <h3 className="text-4xl font-bold mb-8">Let's Work Together</h3>
           <p className="text-lg mb-8 max-w-2xl mx-auto">Ready to elevate your brand's social media presence and create stunning visual content? Get in touch with me today!</p>
           <div className="flex flex-col md:flex-row gap-6 justify-center items-center mb-12">
-            <a href="mailto:leahmae@example.com" className="flex items-center gap-2 bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition">
+            <a href="mailto:lsantillan@gmail.com" className="flex items-center gap-2 bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition">
               <Mail size={20} /> Email Me
             </a>
-            <Button variant="outline" className="border-white text-white hover:bg-white hover:text-blue-600">Schedule a Call</Button>
           </div>
 
         </div>
