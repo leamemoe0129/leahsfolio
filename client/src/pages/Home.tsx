@@ -45,10 +45,10 @@ export default function Home() {
     },
     {
       id: 4,
-      title: "Quietpaws - Pet Tech Campaign",
-      category: "Product Marketing",
-      image: "/portfolio/4.png",
-      description: "Created eye-catching social media graphics highlighting key features for pet owners."
+      title: "Bembanging - Local Business Promotion",
+      category: "Brand Marketing",
+      image: "/portfolio/bembanging.jpg",
+      description: "Developed engaging promotional materials for local business showcasing authentic cultural identity and community connection."
     },
     {
       id: 5,
@@ -59,10 +59,10 @@ export default function Home() {
     },
     {
       id: 6,
-      title: "HydraPure - Product Accessories",
-      category: "E-commerce Design",
-      image: "/portfolio/addoncartridges.png",
-      description: "Developed product marketing graphics showcasing accessories with professional layouts."
+      title: "Derma Filler - Medical Aesthetics",
+      category: "Healthcare Marketing",
+      image: "/portfolio/page 1 - derma filler.png",
+      description: "Created professional medical aesthetics marketing materials highlighting dermal filler treatments with clean, trustworthy design."
     }
   ];
 
